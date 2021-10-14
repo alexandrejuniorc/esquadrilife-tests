@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.534" height="80.013" viewBox="0 0 81.534 80.013">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1" data-name="Path 1" d="M0,0H81.534V80.013H0Z" transform="translate(270 10)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_4" data-name="Retângulo 4" width="82" height="85" transform="translate(0 -0.078)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.24" stop-color="#7dc6cb"/>
+      <stop offset="0.255" stop-color="#7dc6cb"/>
+      <stop offset="0.76" stop-color="#eaf6f7"/>
+      <stop offset="0.857" stop-color="#fff"/>
+      <stop offset="0.944" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="376.656" y1="1362.03" x2="1094.16" y2="1362.03" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="1193.66" y1="1362.03" x2="1911.16" y2="1362.03" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.102" stop-color="#7dc6cb"/>
+      <stop offset="0.153" stop-color="#86cacf"/>
+      <stop offset="0.811" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-270 -10)" clip-path="url(#clip-path)">
+    <g id="Grupo_de_máscara_1" data-name="Grupo de máscara 1" transform="translate(270 10.097)" clip-path="url(#clip-path-2)">
+      <g id="logo" transform="translate(-0.204 0.117)">
+        <rect id="Retângulo_1" data-name="Retângulo 1" width="36.451" height="38.005" transform="translate(0.288 0)" fill="#343434" stroke="#7c7c7c" stroke-width="0.046"/>
+        <rect id="ret6" width="36.451" height="38.004" transform="translate(0 40.219)" fill="#343434" stroke="#7c7c7c" stroke-width="0.046"/>
+        <rect id="ret8" width="36.451" height="38.004" transform="translate(39.236 40.219)" fill="#343434" stroke="#7c7c7c" stroke-width="0.046"/>
+        <rect id="ret3" width="36.451" height="38.005" transform="translate(39.236 0)" fill="#343434" stroke="#7c7c7c" stroke-width="0.046"/>
+        <rect id="ret2" width="34.458" height="36.069" transform="translate(2.289 1.924)" stroke="#c6baa2" stroke-width="0.589" fill="url(#linear-gradient)"/>
+        <rect id="ret5" width="34.458" height="36.069" transform="translate(2 42.141)" stroke="#c6baa2" stroke-width="0.589" fill="url(#linear-gradient-2)"/>
+        <rect id="ret7" width="34.458" height="36.069" transform="translate(41.237 42.141)" stroke="#c6baa2" stroke-width="0.589" fill="url(#linear-gradient-3)"/>
+        <path id="ret4" d="M56.263,9.566H90.705l5.465,38.305H59.59Zm.112.251" transform="translate(-15.01 -7.655)" stroke="#c6baa2" stroke-width="0.589" fill-rule="evenodd" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

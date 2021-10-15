@@ -1,9 +1,9 @@
 <template>
-<header class="header">
+  <header class="header">
     <div class="container">
       <router-link to="/" class="grid-4">
         <img src="@/assets/logo.svg" alt="Logotipo Esquadrilife" />
-        </router-link>
+      </router-link>
       <nav class="grid-12 header-menu">
         <ul>
           <li><router-link to="/sobre">Sobre</router-link></li>

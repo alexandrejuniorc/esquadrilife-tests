@@ -2,24 +2,23 @@
   <div id="app">
     <TheHeader />
     <div id="main">
-      <router-view class="container"></router-view>
+      <router-view class="fill"></router-view>
     </div>
     <TheFooter />
   </div>
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader.vue';
+import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
-
 export default {
-  name: 'App',
+  name: "App",
   components: {
     TheHeader,
-    TheFooter
-  }
-}
+    TheFooter,
+  },
+};
 </script>
 
 <style>

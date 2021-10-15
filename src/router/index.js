@@ -8,7 +8,6 @@ import Obra from "../views/Obra.vue";
 import Produto from "../views/Produto.vue";
 import Sobre from "../views/Sobre.vue";
 
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -16,26 +15,31 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    props: true,
   },
   {
     path: "/contato",
     name: "contato",
     component: Contato,
+    props: true,
   },
   {
     path: "/obras",
     name: "obras",
     component: Obras,
+    props: true,
   },
   {
     path: "/produtos",
     name: "produtos",
     component: Produtos,
+    props: true,
   },
   {
     path: "/sobre",
     name: "sobre",
     component: Sobre,
+    props: true,
   },
   {
     path: "/obras/:obra",

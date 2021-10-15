@@ -1,7 +1,7 @@
 <template>
 <header class="header">
     <div class="container">
-      <router-link to="/cursos" class="grid-4">
+      <router-link to="/" class="grid-4">
         <img src="@/assets/logo.svg" alt="Logotipo Esquadrilife" />
         </router-link>
       <nav class="grid-12 header-menu">
@@ -20,7 +20,7 @@ export default {
   name: "TheHeader",
 };
 </script>
-<style scoped>
+<style>
 /* Header */
 .header {
   position: fixed;

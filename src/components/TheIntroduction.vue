@@ -1,34 +1,23 @@
 <template>
-  <div>
-    <section class="introducao">
-      <div class="container">
-        <h1>{{ $data.props[0] }}</h1>
-        <blockquote class="quote-externo">
-          <p>
-            {{ $data.props[1] }}
-          </p>
-          <cite>{{ $data.props[2] }}</cite>
-        </blockquote>
-      </div>
-    </section>
-  </div>
+  <section
+    class="introducao"
+    :style="{ 'background-image': 'url(' + imgUrl + ')' }"
+  >
+    <div class="container">
+      <h1>{{ h1Content }}</h1>
+      <blockquote class="quote-externo">
+        <p>
+          {{ blockquoteContent }}
+        </p>
+        <cite>{{ citeContent }}</cite>
+      </blockquote>
+    </div>
+  </section>
 </template>
 <script>
 export default {
   name: "TheIntroduction",
-  props: ["h1-content", "blockquote-content", "cite-content", "img_url"],
-  data: function() {
-    return {
-      myProps: this.props,
-    };
-  },
-  computed: {
-    style() {
-      return {
-        "--img-url": this.img_url,
-      };
-    },
-  },
+  props: ["h1Content", "blockquoteContent", "citeContent", "imgUrl"],
 };
 </script>
 <style>
@@ -36,8 +25,9 @@ export default {
   width: 100%;
   margin-top: 110px;
   height: 380px;
-  background: var(--img-url) no-repeat center;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
 }
 

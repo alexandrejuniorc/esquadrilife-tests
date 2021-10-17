@@ -2,7 +2,7 @@
   <div id="app">
     <TheHeader />
     <div id="main">
-      <router-view class="fill"></router-view>
+      <router-view></router-view>
     </div>
     <TheFooter />
   </div>
@@ -553,5 +553,15 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 20px;
+}
+a:link {
+  color: #a65823;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #7dc6cb;
+  background-color: transparent;
+  text-decoration: underline;
 }
 </style>

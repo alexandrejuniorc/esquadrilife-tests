@@ -1,5 +1,5 @@
 <template>
-<footer>
+  <footer>
     <div class="footer">
       <div class="container">
         <div class="grid-8 footer-historia">
@@ -10,9 +10,13 @@
         <div class="grid-4 footer-contato">
           <h3>CONTATO</h3>
           <ul>
-            <li>- (11) 2618–3874</li>
+            <li><a href="tel:1126183874">- (11) 2618-3874</a></li>
             <li>- São Paulo, SP</li>
-            <li>- comercial@esquadrilife.com.br</li>
+            <li>
+              <a href="mailto: comercial@esquadrilife.com.br"
+                >- comercial@esquadrilife.com.br</a
+              >
+            </li>
           </ul>
         </div>
 
@@ -20,13 +24,19 @@
           <h3>REDES SOCIAIS</h3>
           <ul>
             <li>
-              <a href="https://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.png" /></a>
+              <a href="https://facebook.com" target="_blank"
+                ><img src="@/assets/social/facebook.png"
+              /></a>
             </li>
             <li>
-              <a href="https://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png" /></a>
+              <a href="https://instagram.com" target="_blank"
+                ><img src="@/assets/social/instagram.png"
+              /></a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png" /></a>
+              <a href="https://twitter.com" target="_blank"
+                ><img src="@/assets/social/twitter.png"
+              /></a>
             </li>
           </ul>
         </div>
@@ -42,7 +52,7 @@
 
 <script>
 export default {
-    name: "TheFooter",
+  name: "TheFooter",
 };
 </script>
 <style scoped>

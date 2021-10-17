@@ -1,16 +1,16 @@
 <template>
   <TheIntroduction
-    h1-content="Esquadrias Especiais"
-    blockquote-content="Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"
-    cite-content="William Morris"
-    img_url="@/assets/constructions/intro.png"
-  />
+    h1Content="Esquadrias Especiais"
+    blockquoteContent="Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"
+    citeContent="William Morris"
+    :imgUrl="require('@/assets/constructions/intro.png')"
+  ></TheIntroduction>
 </template>
 <script>
 import TheIntroduction from "@/components/TheIntroduction.vue";
 
 export default {
-  name: "Home",
+  name: "home",
   components: {
     TheIntroduction,
   },

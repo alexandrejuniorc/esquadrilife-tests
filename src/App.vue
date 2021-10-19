@@ -562,6 +562,6 @@ a:link {
 a:hover {
   color: #7dc6cb;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 </style>

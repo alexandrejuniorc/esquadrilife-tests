@@ -1,7 +1,7 @@
 <template>
   <TheIntroduction
     h1Content="Esquadrias Especiais"
-    blockquoteContent="Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"
+    blockquoteContent='"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"'
     citeContent="William Morris"
     :imgUrl="require('@/assets/constructions/intro.png')"
   ></TheIntroduction>

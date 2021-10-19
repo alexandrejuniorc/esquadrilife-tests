@@ -3,7 +3,7 @@
     class="introducao"
     :style="{ 'background-image': 'url(' + imgUrl + ')' }"
   >
-    <div class="container">
+    <div class="container opac">
       <h1>{{ h1Content }}</h1>
       <blockquote class="quote-externo">
         <p>
@@ -31,6 +31,10 @@ export default {
   padding-top: 120px;
 }
 
+.opac {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .introducao h1 {
   font-size: 48px;
   line-height: 60px;
@@ -38,14 +42,12 @@ export default {
   font-weight: regular;
   text-transform: uppercase;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .quote-externo {
   max-width: 600px;
   margin: 0 auto;
   color: #82f7ff;
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .quote-externo p {

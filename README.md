@@ -1,4 +1,4 @@
-# esquadrilife
+# esquadrilife-vercel
 
 ## Project setup
 ```

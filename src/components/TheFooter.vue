@@ -11,7 +11,11 @@
           <h3>CONTATO</h3>
           <ul>
             <li><a href="tel:1126183874">- (11) 2618-3874</a></li>
-            <li>- São Paulo, SP</li>
+            <li>
+              <a href="https://goo.gl/maps/KxPdck4rqxkqYoAa6"
+                >- Nossa fábrica</a
+              >
+            </li>
             <li>
               <a href="mailto: comercial@esquadrilife.com.br"
                 >- comercial@esquadrilife.com.br</a

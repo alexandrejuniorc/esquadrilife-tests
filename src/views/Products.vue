@@ -4,7 +4,7 @@
       h1Content="Produtos"
       blockquoteContent='"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"'
       citeContent="William Morris"
-      :imgUrl="require('@/assets/construction/products/intro.png')"
+      :imgUrl="require('@/assets/constructions/products/intro.png')"
     ></TheIntroduction>
     <section class="product">
       <TheConstruction

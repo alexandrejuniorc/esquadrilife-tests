@@ -1,12 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Contato from "../views/Contato.vue";
-import Obras from "../views/Obras.vue";
-import Produtos from "../views/Produtos.vue";
-import Obra from "../views/Obra.vue";
-import Produto from "../views/Produto.vue";
-import Sobre from "../views/Sobre.vue";
+import Contact from "../views/Contact.vue";
+import Constructions from "../views/Constructions.vue";
+import Products from "../views/Products.vue";
+import Construction from "../views/Construction.vue";
+import Product from "../views/Product.vue";
+import About from "../views/About.vue";
 
 Vue.use(VueRouter);
 
@@ -20,37 +20,37 @@ const routes = [
   {
     path: "/contato",
     name: "contato",
-    component: Contato,
+    component: Contact,
     props: true,
   },
   {
     path: "/obras",
     name: "obras",
-    component: Obras,
+    component: Constructions,
     props: true,
   },
   {
     path: "/produtos",
     name: "produtos",
-    component: Produtos,
+    component: Products,
     props: true,
   },
   {
     path: "/sobre",
     name: "sobre",
-    component: Sobre,
+    component: About,
     props: true,
   },
   {
     path: "/obras/:obra",
     name: "obra",
-    component: Obra,
+    component: Construction,
     props: true,
   },
   {
     path: "/produtos/:produto",
     name: "produto",
-    component: Produto,
+    component: Product,
     props: true,
   },
 ];

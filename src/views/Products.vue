@@ -48,4 +48,10 @@ export default {
   margin: 0 auto;
   padding: 60px 0;
 }
+
+.portfolio {
+  width: 100%;
+  background: #7dc6cb;
+  padding: 157px 0;
+}
 </style>

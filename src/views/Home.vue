@@ -26,17 +26,29 @@
         constructionUrl="/obras/3"
       ></TheConstruction>
     </section>
+    <section class="portfolio">
+      <TheGallery
+        :imgUrl1="require('@/assets/constructions/gallery/1.png')"
+        :imgUrl2="require('@/assets/constructions/gallery/2.png')"
+        :imgUrl3="require('@/assets/constructions/gallery/3.png')"
+        :alt1="Copacabana"
+        :alt2="Europa"
+        :alt3="Residencial"
+      ></TheGallery>
+    </section>
   </div>
 </template>
 <script>
 import TheIntroduction from "@/components/TheIntroduction.vue";
 import TheConstruction from "@/components/TheConstruction.vue";
+import TheGallery from "@/components/TheGallery.vue";
 
 export default {
   name: "home",
   components: {
     TheIntroduction,
     TheConstruction,
+    TheGallery,
   },
 };
 </script>

@@ -1,14 +1,14 @@
 <template>
   <div>
     <TheIntroduction
-      h1Content="Produtos"
-      blockquoteContent='"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"'
-      citeContent="William Morris"
-      :imgUrl="require('@/assets/constructions/products/intro.png')"
+    h1Content="Produtos"
+    blockquoteContent='"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"'
+    citeContent="William Morris"
+    :imgUrl="require('@/assets/products/intro.png')"
     ></TheIntroduction>
     <section class="product">
       <TheConstruction
-        :imgUrl="require('@/assets/constructions/banner01.png')"
+       :imgUrl="require('@/assets/constructions/banner01.png')"
         title="WALLGLASS"
         description="linha minimalista"
         constructionUrl="/obras/1"
@@ -25,6 +25,7 @@
         description="linha minimalista"
         constructionUrl="/obras/3"
       ></TheConstruction>
+
     </section>
   </div>
 </template>

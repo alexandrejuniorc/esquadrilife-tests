@@ -1,31 +1,26 @@
 <template>
     <div>
-        <TheIntroduction
-        h1Content="Obras"
-        blockquoteContent='"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"'
-        citeContent="William Morris"
-        :imgUrl="require('@/assets/constructions/intro.png')"
-        ></TheIntroduction>
-        <TheInsight
-            Construction="Obra Jauaperi"
-            Line="Wallglass"
-            :imgUrl="require('@/assets/constructions/intro.png')">
-        </TheInsight>
-        <TheInsight
-            Construction="Obra Jauaperi"
-            Line="Wallglass"
-            :imgUrl="require('@/assets/constructions/intro.png')">
-        </TheInsight>
-        <TheInsight
-            Construction="Obra Jauaperi"
-            Line="Wallglass"
-            :imgUrl="require('@/assets/constructions/intro.png')">
-        </TheInsight>
-        <TheInsight
-            Construction="Obra Jauaperi"
-            Line="Wallglass"
-            :imgUrl="require('@/assets/constructions/intro.png')">
-        </TheInsight>
+    <TheIntroduction
+      h1Content="Obras"
+      blockquoteContent='"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"'
+      citeContent="William Morris"
+      :imgUrl="require('@/assets/constructions/intro.png')"
+    ></TheIntroduction>
+    <TheInsight
+        Construction="Obra Jauaperi"
+        Line="Wallglass"
+        :imgUrl="require('@/assets/constructions/intro.png')">
+    </TheInsight>
+    <TheInsight
+        Construction="Obra Jauaperi"
+        Line="Wallglass"
+        :imgUrl="require('@/assets/constructions/intro.png')">
+    </TheInsight>
+    <TheInsight
+        Construction="Obra Jauaperi"
+        Line="Wallglass"
+        :imgUrl="require('@/assets/constructions/intro.png')">
+    </TheInsight>
     </div>
 </template>
 <script>

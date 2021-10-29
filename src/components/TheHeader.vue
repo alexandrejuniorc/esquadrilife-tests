@@ -21,6 +21,25 @@ export default {
 };
 </script>
 <style>
+@media only screen and (min-width: 768px) and (max-width: 979px){
+  .header-menu {
+  text-align: left;
+ }
+}
+
+
+@media only screen and (max-width: 767px){
+ .header-menu {
+  text-align: center;
+ }
+
+.header-menu ul li a {
+  font-size: 10px;
+  
+}
+
+}
+
 /* Header */
 .header {
   position: fixed;

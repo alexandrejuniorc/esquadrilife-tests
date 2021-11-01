@@ -33,6 +33,7 @@ export default {
 }
 </script>
 <style>
+
 .construction {
   max-width: 960px;
   margin: 0 auto;

@@ -12,35 +12,48 @@
           <li><router-link to="/contato">Contato</router-link></li>
         </ul>
       </nav>
+      <img src="@/assets/hamburguer.svg" id="hamburguer" alt="Nav Esquadrilife" />
     </div>
   </header>
 </template>
 <script>
 export default {
   name: "TheHeader",
+  methods:{
+    displayHambuger(){
+      console.log("Hamburguer");
+    }
+  }
 };
 </script>
 <style>
 @media only screen and (min-width: 768px) and (max-width: 979px){
-  .header-menu {
-  text-align: left;
- }
 }
+/* Header */
 
+#hamburguer{
+  display: none;
+}
 
 @media only screen and (max-width: 767px){
- .header-menu {
-  text-align: center;
- }
 
-.header-menu ul li a {
-  font-size: 10px;
-  
+  .header-menu{
+    display: none;
+  }
+
+  #hamburguer{
+    display: block;
+  }
+
+  .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important; 
+  }
 }
 
-}
 
-/* Header */
 .header {
   position: fixed;
   top: 0;

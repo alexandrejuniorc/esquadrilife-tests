@@ -32,7 +32,25 @@ export default {
 }
 
 .opac {
+
   background: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 767px){
+  .opac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote-externo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 .introducao h1 {
@@ -62,6 +80,12 @@ export default {
   letter-spacing: 0.1em;
   padding-left: 200px;
   color: #82f7ff;
+}
+
+@media only screen and (max-width: 767px){
+  .quote-externo cite{
+    padding-left: 0 !important;
+  } 
 }
 
 .quote-externo p:before,

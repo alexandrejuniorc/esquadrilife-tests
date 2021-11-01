@@ -87,7 +87,8 @@ export default {
 }
 
 .footer-contato ul li {
-  font-size: 14px;
+
+  font-size: 11px;
   line-height: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }

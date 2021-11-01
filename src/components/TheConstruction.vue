@@ -1,7 +1,7 @@
 <template>
   <div class="construction-item">
     <img :src="imgUrl" alt="Obra 1" />
-    <div>
+    <div class="text">
       <h2>{{ title }}</h2>
       <p>{{ description }}</p>
       <a :href="constructionUrl">Ver Obra</a>
@@ -15,7 +15,42 @@ export default {
 };
 </script>
 <style>
+
+@media only screen and (min-width: 768px) and (max-width: 979px){
+  .construction-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+  .construction-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 .construction-item {
+  
   clear: both;
   margin: 20px auto;
 }
@@ -37,7 +72,6 @@ export default {
 .construction-item > div {
   width: 460px;
   float: left;
-  display: block;
   margin: 0 10px;
 }
 

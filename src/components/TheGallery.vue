@@ -20,6 +20,19 @@ export default {
 };
 </script>
 <style>
+@media only screen and (min-width: 768px) and (max-width: 979px){
+    .portfolio-lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .portfolio-lista li{
+      margin-top: 0 !important;
+    }
+}
+
 .portfolio-lista li:last-child {
   margin-top: 20px;
 }

@@ -85,7 +85,13 @@ export default {
 @media only screen and (max-width: 767px){
   .quote-externo cite{
     padding-left: 0 !important;
-  } 
+  }
+
+  .introducao {
+	margin-top: 0px;
+	padding-top: 20px;
+	background-size: cover;
+}
 }
 
 .quote-externo p:before,

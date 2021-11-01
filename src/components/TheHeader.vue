@@ -12,7 +12,6 @@
           <li><router-link to="/contato">Contato</router-link></li>
         </ul>
       </nav>
-      <img src="@/assets/hamburguer.svg" id="hamburguer" alt="Nav Esquadrilife" />
     </div>
   </header>
 </template>
@@ -27,33 +26,6 @@ export default {
 };
 </script>
 <style>
-@media only screen and (min-width: 768px) and (max-width: 979px){
-}
-/* Header */
-
-#hamburguer{
-  display: none;
-}
-
-@media only screen and (max-width: 767px){
-
-  .header-menu{
-    display: none;
-  }
-
-  #hamburguer{
-    display: block;
-  }
-
-  .container{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100% !important; 
-  }
-}
-
-
 .header {
   position: fixed;
   top: 0;
@@ -85,5 +57,36 @@ export default {
 
 .header-menu ul li a:hover {
   color: #82f7ff;
+}
+
+@media only screen and (max-width: 767px){
+  .header{
+    position: relative;
+    padding-bottom: 0px;
+  }
+  
+  .header img {
+    margin: 0 auto 10px auto;
+  }
+
+  .header-menu{
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header-menu ul li a{
+    border: 2px solid #fff;
+    width: 140px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #82f7ff;
+  }
+
 }
 </style>
